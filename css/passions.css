@@ -1,0 +1,15 @@
+.passions {
+    display: flex;
+    align-items: center;
+    padding: 64px;
+}
+
+.passions>h3 {
+    font-size: 48px;
+    padding: 80px;
+    color: #71400c;
+}
+
+.passionstxt {
+    color: #7a3e32;
+}
