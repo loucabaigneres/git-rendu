@@ -395,3 +395,133 @@ body{
   font-size: 40px; 
   
   } 
+
+  .infoPerso3{ 
+
+    width: 100%; 
+    
+    height: 300px; 
+    
+    background-color: rgb(93, 32, 150); 
+    
+    display: flex; 
+    
+    } 
+    
+    .texteinfo3{ 
+    
+    display: flex; 
+    
+    width: 600px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    margin-left:220px; 
+    
+    } 
+    
+    .boxInfoPerso3{ 
+    
+    display: flex; 
+    
+    width: 400px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    margin-left: 120px; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    font-size: 40px; 
+    
+    } 
+    
+     
+     
+    
+    .infoPerso4{ 
+    
+    width: 100%; 
+    
+    height: 300px; 
+    
+    background-color: rgb(160, 78, 236); 
+    
+    display: flex; 
+    
+    } 
+    
+    .texteinfo4{ 
+    
+    display: flex; 
+    
+    width: 600px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    margin-left:380px; 
+    
+    font-size: 60px; 
+    
+    } 
+    
+     
+     
+    
+    h1 { 
+    
+    color: rgb(141, 216, 244); 
+    
+    animation: colorChange 2s infinite; 
+    
+    } 
+    
+    @keyframes colorChange { 
+    
+    0% { 
+    
+    color: rgb(227, 181, 164); 
+    
+    } 
+    
+    50% { 
+    
+    color: rgb(136, 136, 238); 
+    
+    } 
+    
+    100% { 
+    
+    color: rgb(163, 201, 99); 
+    
+    } 
+    
+    } 
+    
+    h1{ 
+    
+    font-size: 50px; 
+    
+    } 
