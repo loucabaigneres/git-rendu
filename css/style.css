@@ -151,3 +151,68 @@ body{
   background-color: red; 
   
   }  
+
+  .texteinfo{ 
+
+    display: flex; 
+    
+    width: 600px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    margin-left:350px; 
+    
+    } 
+    
+     
+    
+    .infoPerso{ 
+    
+    width: 100%; 
+    
+    height: 300px; 
+    
+    background-color: blueviolet; 
+    
+    margin-top: 30px; 
+    
+    display: flex; 
+    
+    } 
+    
+     
+    
+    .boxInfoPerso{ 
+    
+    display: flex; 
+    
+    width: 400px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    margin-left: 25px; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    font-size: 40px; 
+    
+    } 
+    
+     
+    
+     
+     
