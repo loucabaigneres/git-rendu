@@ -23,3 +23,14 @@
     width: 8em;
     height: 8em;
 }
+
+.gallery > div > img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.gallery > div > img:hover {
+    transform: scale(1.025, 1.025);
+}

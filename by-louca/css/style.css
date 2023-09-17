@@ -116,6 +116,31 @@ hr {
     align-items: center;
 }
 
+.gallery {
+    height: 55%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 12px;
+    padding: 0 144px;
+}
+
+.gallery > div {
+    height: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+#grid-2 {
+    grid-column: span 2;
+}
+
+.previous {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
     width: 16px;
