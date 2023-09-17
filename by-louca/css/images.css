@@ -13,3 +13,13 @@
         transform: translateY(1.25em);
     }
 }
+
+.paragraph > div > img {
+    width: 3em;
+    height: 3em;
+}
+
+.images > img {
+    width: 8em;
+    height: 8em;
+}
