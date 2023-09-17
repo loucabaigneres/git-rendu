@@ -1,0 +1,33 @@
+.reseaux {
+    display: flex;
+    align-items: center;
+    padding: 64px;
+}
+
+.reseaux>h3 {
+    font-size: 48px;
+    padding: 80px;
+    color: #71400c;
+}
+
+.reseauxtxt {
+    color: #7a3e32;
+}
+
+.liste-reseaux {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 48px;
+}
+
+.reseau {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}

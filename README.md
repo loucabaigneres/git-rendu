@@ -15,10 +15,11 @@ Click on the golden dot on the top right to get access to the navigation between
 
 ## 📁 Files structure
 
--   `css/` : Contains CSS files
--   `fonts/` : Contains fonts files
--   `assets/` : Contains media files
--   `by-leo/` : Léo's presentation page
--   `by-louca/` : Louca's presentation page
--   `by-yani/` : Yani's presentation page
--   `README.md` : The README you're reading at the moment
+- `css/` : Contains CSS files
+- `js/` : Contains JS files
+- `fonts/` : Contains fonts files
+- `assets/` : Contains media files
+- `by-leo/` : Léo's presentation page
+- `by-louca/` : Louca's presentation page
+- `by-yani/` : Yani's presentation page
+- `README.md` : The README you're reading at the moment

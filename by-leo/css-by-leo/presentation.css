@@ -1,0 +1,16 @@
+.presentation {
+    display: flex;
+    align-items: center;
+    padding: 64px;
+}
+
+.presentation > h3 {
+    font-size: 48px;
+    padding: 80px;
+    color: #71400c;
+}
+
+.presentationtxt  {
+    text-align: end;
+    color: #7a3e32;
+}
