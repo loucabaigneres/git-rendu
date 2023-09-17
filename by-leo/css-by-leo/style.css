@@ -8,6 +8,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -20,9 +21,14 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+a {
+    color: black;
+}
+
 .intro {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 16px;
 }
