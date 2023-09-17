@@ -1,0 +1,95 @@
+@import url(fonts/roboto.css);
+@import url(fonts/moon.css);
+
+@import url(colors.css);
+@import url(texts.css);
+@import url(images.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+a {
+    color: var(--text-white);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+header {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-right: 128px;
+}
+
+.full-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+hr {
+    background-color: var(--color-brand);
+    width: 5px;
+    align-self: stretch;
+    border-radius: 2.5px;
+    border: none;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.next {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border: 4px solid var(--scrollbar-track);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}

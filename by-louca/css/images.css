@@ -1,0 +1,15 @@
+.next > a > img {
+    width: 5em;
+    animation: updown 3s ease-in-out infinite;
+    user-select: none;
+}
+
+@keyframes updown {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(1.25em);
+    }
+}
