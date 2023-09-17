@@ -4,6 +4,7 @@
 @import url("passions.css");
 @import url("nourriture.css");
 @import url("reseaux.css");
+@import url("nav.css");
 
 * {
     margin: 0;
