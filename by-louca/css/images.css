@@ -34,3 +34,9 @@
 .gallery > div > img:hover {
     transform: scale(1.025, 1.025);
 }
+
+.photo-others {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
