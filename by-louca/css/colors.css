@@ -1,0 +1,17 @@
+:root {
+    /* Background color */
+    --background: #2a5360;
+
+    /* Couleur des textes */
+    --text-white: rgba(255, 255, 255, 0.9);
+
+    /* Couleur des textes handle */
+    --text-handle: rgba(255, 255, 255, 0.7);
+
+    /* Couleur spéciale*/
+    --color-brand: rgb(204, 186, 120);
+
+    /* Couleurs de la sidebar */
+    --scrollbar-thumb: #4b95ac;
+    --scrollbar-track: #010102;
+}
